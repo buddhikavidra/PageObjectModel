@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[browser started]]>
+    </line>
+    <line>
+      <![CDATA[Type on //input[@id='user-name']   Value  : standard_user]]>
+    </line>
+    <line>
+      <![CDATA[Type on //input[@id='password']   Value  : secret_sauce]]>
+    </line>
+    <line>
+      <![CDATA[Click on //input[@id='login-button']]]>
+    </line>
+    <line>
+      <![CDATA[ driver  paused ]]>
+    </line>
+    <line>
+      <![CDATA[value matched with given value   input URLhttps://www.saucedemo.com/inventory.html   pageURL  :https://www.saucedemo.com/inventory.html]]>
+    </line>
+    <line>
+      <![CDATA[Click on //div[text()='Sauce Labs Backpack']]]>
+    </line>
+    <line>
+      <![CDATA[value matched with given value   input value$29.99   existing value  :$29.99]]>
+    </line>
+    <line>
+      <![CDATA[value matched with given value   input valueSauce Labs Backpack   existing value  :Sauce Labs Backpack]]>
+    </line>
+    <line>
+      <![CDATA[Click on //button[@id='add-to-cart-sauce-labs-backpack']]]>
+    </line>
+    <line>
+      <![CDATA[Click on //div[@id="shopping_cart_container"]]]>
+    </line>
+    <line>
+      <![CDATA[value matched with given value   input URLhttps://www.saucedemo.com/cart.html   pageURL  :https://www.saucedemo.com/cart.html]]>
+    </line>
+    <line>
+      <![CDATA[value matched with given value   input value$29.99   existing value  :$29.99]]>
+    </line>
+    <line>
+      <![CDATA[value matched with given value   input valueSauce Labs Backpack   existing value  :Sauce Labs Backpack]]>
+    </line>
+    <line>
+      <![CDATA[Click on //button[@id='remove-sauce-labs-backpack']]]>
+    </line>
+    <line>
+      <![CDATA[not found]]>
+    </line>
+    <line>
+      <![CDATA[not found]]>
+    </line>
+    <line>
+      <![CDATA[Click on //button[@id='continue-shopping']]]>
+    </line>
+    <line>
+      <![CDATA[Click on //div[text()='Sauce Labs Backpack']]]>
+    </line>
+    <line>
+      <![CDATA[value matched with given value   input value$29.99   existing value  :$29.99]]>
+    </line>
+    <line>
+      <![CDATA[value matched with given value   input valueSauce Labs Backpack   existing value  :Sauce Labs Backpack]]>
+    </line>
+    <line>
+      <![CDATA[Click on //button[@id='add-to-cart-sauce-labs-backpack']]]>
+    </line>
+    <line>
+      <![CDATA[Click on //button[@id='back-to-products']]]>
+    </line>
+    <line>
+      <![CDATA[Click on //div[text()='Sauce Labs Bike Light']]]>
+    </line>
+    <line>
+      <![CDATA[value matched with given value   input value$9.99   existing value  :$9.99]]>
+    </line>
+    <line>
+      <![CDATA[value matched with given value   input valueSauce Labs Bike Light   existing value  :Sauce Labs Bike Light]]>
+    </line>
+    <line>
+      <![CDATA[Click on //button[@id='add-to-cart-sauce-labs-bike-light']]]>
+    </line>
+    <line>
+      <![CDATA[Click on //div[@id="shopping_cart_container"]]]>
+    </line>
+    <line>
+      <![CDATA[Click on //button[@id='checkout']]]>
+    </line>
+    <line>
+      <![CDATA[Type on //input[@id='first-name']   Value  : standard_user]]>
+    </line>
+    <line>
+      <![CDATA[Type on //input[@id='last-name']   Value  : standard_user2]]>
+    </line>
+    <line>
+      <![CDATA[Type on //input[@id='postal-code']   Value  : 5848754]]>
+    </line>
+    <line>
+      <![CDATA[Click on //input[@id='continue']]]>
+    </line>
+    <line>
+      <![CDATA[ object count is   : 2]]>
+    </line>
+    <line>
+      <![CDATA[Click on //button[@id='finish']]]>
+    </line>
+    <line>
+      <![CDATA[value matched with given value   input valueTHANK YOU FOR YOUR ORDER   existing value  :THANK YOU FOR YOUR ORDER]]>
+    </line>
+    <line>
+      <![CDATA[value matched with given value   input URLhttps://www.saucedemo.com/checkout-complete.html   pageURL  :https://www.saucedemo.com/checkout-complete.html]]>
+    </line>
+    <line>
+      <![CDATA[ driver  closed ]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2021-05-11T01:20:30 IST" name="Default suite" finished-at="2021-05-11T01:20:58 IST" duration-ms="28409">
+    <groups>
+    </groups>
+    <test started-at="2021-05-11T01:20:30 IST" name="Default test" finished-at="2021-05-11T01:20:58 IST" duration-ms="28409">
+      <class name="testcases.TestCaseOne">
+        <test-method signature="testcase()[pri:0, instance:testcases.TestCaseOne@6babf3bf]" started-at="2021-05-11T01:20:30 IST" name="testcase" finished-at="2021-05-11T01:20:58 IST" duration-ms="28358" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[browser started]]>
+            </line>
+            <line>
+              <![CDATA[Type on //input[@id='user-name']   Value  : standard_user]]>
+            </line>
+            <line>
+              <![CDATA[Type on //input[@id='password']   Value  : secret_sauce]]>
+            </line>
+            <line>
+              <![CDATA[Click on //input[@id='login-button']]]>
+            </line>
+            <line>
+              <![CDATA[ driver  paused ]]>
+            </line>
+            <line>
+              <![CDATA[value matched with given value   input URLhttps://www.saucedemo.com/inventory.html   pageURL  :https://www.saucedemo.com/inventory.html]]>
+            </line>
+            <line>
+              <![CDATA[Click on //div[text()='Sauce Labs Backpack']]]>
+            </line>
+            <line>
+              <![CDATA[value matched with given value   input value$29.99   existing value  :$29.99]]>
+            </line>
+            <line>
+              <![CDATA[value matched with given value   input valueSauce Labs Backpack   existing value  :Sauce Labs Backpack]]>
+            </line>
+            <line>
+              <![CDATA[Click on //button[@id='add-to-cart-sauce-labs-backpack']]]>
+            </line>
+            <line>
+              <![CDATA[Click on //div[@id="shopping_cart_container"]]]>
+            </line>
+            <line>
+              <![CDATA[value matched with given value   input URLhttps://www.saucedemo.com/cart.html   pageURL  :https://www.saucedemo.com/cart.html]]>
+            </line>
+            <line>
+              <![CDATA[value matched with given value   input value$29.99   existing value  :$29.99]]>
+            </line>
+            <line>
+              <![CDATA[value matched with given value   input valueSauce Labs Backpack   existing value  :Sauce Labs Backpack]]>
+            </line>
+            <line>
+              <![CDATA[Click on //button[@id='remove-sauce-labs-backpack']]]>
+            </line>
+            <line>
+              <![CDATA[not found]]>
+            </line>
+            <line>
+              <![CDATA[not found]]>
+            </line>
+            <line>
+              <![CDATA[Click on //button[@id='continue-shopping']]]>
+            </line>
+            <line>
+              <![CDATA[Click on //div[text()='Sauce Labs Backpack']]]>
+            </line>
+            <line>
+              <![CDATA[value matched with given value   input value$29.99   existing value  :$29.99]]>
+            </line>
+            <line>
+              <![CDATA[value matched with given value   input valueSauce Labs Backpack   existing value  :Sauce Labs Backpack]]>
+            </line>
+            <line>
+              <![CDATA[Click on //button[@id='add-to-cart-sauce-labs-backpack']]]>
+            </line>
+            <line>
+              <![CDATA[Click on //button[@id='back-to-products']]]>
+            </line>
+            <line>
+              <![CDATA[Click on //div[text()='Sauce Labs Bike Light']]]>
+            </line>
+            <line>
+              <![CDATA[value matched with given value   input value$9.99   existing value  :$9.99]]>
+            </line>
+            <line>
+              <![CDATA[value matched with given value   input valueSauce Labs Bike Light   existing value  :Sauce Labs Bike Light]]>
+            </line>
+            <line>
+              <![CDATA[Click on //button[@id='add-to-cart-sauce-labs-bike-light']]]>
+            </line>
+            <line>
+              <![CDATA[Click on //div[@id="shopping_cart_container"]]]>
+            </line>
+            <line>
+              <![CDATA[Click on //button[@id='checkout']]]>
+            </line>
+            <line>
+              <![CDATA[Type on //input[@id='first-name']   Value  : standard_user]]>
+            </line>
+            <line>
+              <![CDATA[Type on //input[@id='last-name']   Value  : standard_user2]]>
+            </line>
+            <line>
+              <![CDATA[Type on //input[@id='postal-code']   Value  : 5848754]]>
+            </line>
+            <line>
+              <![CDATA[Click on //input[@id='continue']]]>
+            </line>
+            <line>
+              <![CDATA[ object count is   : 2]]>
+            </line>
+            <line>
+              <![CDATA[Click on //button[@id='finish']]]>
+            </line>
+            <line>
+              <![CDATA[value matched with given value   input valueTHANK YOU FOR YOUR ORDER   existing value  :THANK YOU FOR YOUR ORDER]]>
+            </line>
+            <line>
+              <![CDATA[value matched with given value   input URLhttps://www.saucedemo.com/checkout-complete.html   pageURL  :https://www.saucedemo.com/checkout-complete.html]]>
+            </line>
+            <line>
+              <![CDATA[ driver  closed ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testcase -->
+      </class> <!-- testcases.TestCaseOne -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
